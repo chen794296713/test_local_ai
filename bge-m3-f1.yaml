@@ -1,0 +1,12 @@
+---
+name: "bge-m3-f16"
+
+config_file: |
+    parameters:
+      model: bge-m3-f16.gguf
+    backend: bert-embeddings
+    embeddings: true
+files:
+  - filename: "bge-m3-f16.gguf"
+    sha256: "a5a174d8772c8a569faf9f3136c441f2c3855b5bf35ed32274294219533feaad"
+    uri: "https://huggingface.co/mudler/all-MiniLM-L6-v2/resolve/main/ggml-model-q4_0.bin"
